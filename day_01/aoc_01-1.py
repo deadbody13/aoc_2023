@@ -1,4 +1,4 @@
-file = open("input.txt", "r")
+file = open("input_01-1.txt", "r")
 contents = []
 for x in file:
     contents += x.split()

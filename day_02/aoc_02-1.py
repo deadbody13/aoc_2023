@@ -17,7 +17,6 @@ red_max = 12
 green_max = 13
 blue_max = 14
 for x in contents:
-    print(x)
     sets = x[x.index(":")+2:].split("; ")
     red_count = [int(y.split()[k-1]) for y in sets for k in range(len(y.split())) if y.split()[k] == "red" or y.split()[k] == "red,"]
     green_count = [int(y.split()[k-1]) for y in sets for k in range(len(y.split())) if y.split()[k] == "green" or y.split()[k] == "green,"]
